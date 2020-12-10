@@ -9,15 +9,6 @@ import android.view.ViewGroup
 
 class SecondFragment : Fragment() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        Log.d("YOLO", "SecondFragment: onCreate()")
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.d("YOLO", "SecondFragment: onDestroy()")
-    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

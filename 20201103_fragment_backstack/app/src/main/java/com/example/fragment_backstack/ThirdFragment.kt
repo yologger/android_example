@@ -9,16 +9,6 @@ import android.view.ViewGroup
 
 class ThirdFragment : Fragment() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        Log.d("YOLO", "ThirdFragment: onCreate()")
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.d("YOLO", "ThirdFragment: onDestroy()")
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
