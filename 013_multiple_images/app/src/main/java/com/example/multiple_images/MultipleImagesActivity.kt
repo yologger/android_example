@@ -33,7 +33,6 @@ class MultipleImagesActivity : AppCompatActivity() {
         activity_multiple_images_btn.setOnClickListener {
             TedImagePicker.with(this)
                 .startMultiImage { uris ->
-
                     var uriStrings = uris.map { it.toString() }
 
                     activity_multiple_images_is.adapter = SliderAdapter(
