@@ -43,24 +43,24 @@ class MultipleImagesActivity : AppCompatActivity() {
                 }
         }
 
-        activity_multiple_images_is.setOnPageChangeListener(object: ViewPager.OnPageChangeListener {
-            override fun onPageScrollStateChanged(state: Int) {
-                return
-            }
-
-            override fun onPageScrolled(
-                position: Int,
-                positionOffset: Float,
-                positionOffsetPixels: Int
-            ) {
-                return
-            }
-
-            override fun onPageSelected(position: Int) {
-                println("PAGE: ${position}")
-            }
-
-        })
+//        activity_multiple_images_is.setOnPageChangeListener(object: ViewPager.OnPageChangeListener {
+//            override fun onPageScrollStateChanged(state: Int) {
+//                return
+//            }
+//
+//            override fun onPageScrolled(
+//                position: Int,
+//                positionOffset: Float,
+//                positionOffsetPixels: Int
+//            ) {
+//                return
+//            }
+//
+//            override fun onPageSelected(position: Int) {
+//                println("PAGE: ${position}")
+//            }
+//
+//        })
 
 //        TedImagePicker.with(this)
 //            .startMultiImage { imageUris ->

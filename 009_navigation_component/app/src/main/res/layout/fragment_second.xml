@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#A1D9F1"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SecondFragment">
+    tools:context=".transition.fragment.SecondFragment">
 
     <Button
         android:id="@+id/fragment_second_btn_back"
